@@ -1,0 +1,99 @@
+
+
+
+.navbox {
+display: flex;
+justify-content: space-between;
+width: 1512 px;
+height: 100 px;
+background-color: #4F60F0;
+
+}
+
+.navbox > div {
+    display: flex;
+}
+
+.homebutton{
+
+display:flex;
+font-family: 'Rochester', cursive;
+font-size: 40px;
+color: #FA9C2E;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+}
+
+.linkbutton{
+width: 60px;
+height: 30px;
+background-color: #FA9C2E;
+color:white;
+display: flex;
+justify-content: flex-end;
+padding: 10px;
+border-radius: 15px;
+justify-content: center;
+align-items: center;
+margin: 6px;
+text-decoration: none;
+
+}
+
+.imagecontainer {
+    display: flex;
+}
+.imagecontainer > img {
+    width: 50%; 
+}
+
+.aboutbox{
+background-color: rgba(250, 156, 46, 0.7);
+width: 100%;
+height: 38.8%;
+border-radius: 15px;
+text-align: center;
+}
+
+.menucontainer{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between
+}
+
+
+.menubox{
+flex: 0 0 calc(33.33% - 20px);
+display: flex;
+flex-direction: column;
+background-color: #FA9C2E;
+width: 488px;
+height: 122px;
+border-radius: 15px;
+justify-content: center;
+align-items: center;
+line-height: 0.1;
+margin: 10px;
+}
+
+.product {
+display: flex;
+align-items: center;
+}
+
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+.formbox{
+background-color: rgba(250, 156, 46, 0.7);
+width: 100%;
+border-radius: 15px;
+text-align: center;
+}

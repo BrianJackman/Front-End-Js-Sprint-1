@@ -1,0 +1,110 @@
+<!-- 
+Sprint 1 
+By: Brian Jackman
+2024/06/28
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Orders</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rochester&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="mainbox">
+      <header></header>
+      <!-- Navigation links-->
+      <nav>
+        <div class="navbox">
+          <a href="index.html" class="homebutton">Gary Blue's Diner</a>
+          <div>
+            <a href="menu.html" class="linkbutton">Menu</a>
+            <a href="orders.html" class="linkbutton">Order</a>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <!-- Order form-->
+        <div class="formbox">
+          <h1>Order Form</h1>
+          <form id="orderForm">
+            <div class="product">
+              <input type="checkbox" id="bigGaryCheckbox" />
+              <label for="bigGaryCheckbox">Big Gary</label>
+            </div>
+            <input type="number" id="bigGaryQuantity" />
+            <div class="product">
+              <input type="checkbox" id="tatersCheckbox" />
+              <label for="tatersCheckbox">Taters</label>
+            </div>
+            <input type="number" id="tatersQuantity" />
+            <div class="product">
+              <input type="checkbox" id="soupCheckbox" />
+              <label for="soupCheckbox">Soup</label>
+            </div>
+            <input type="number" id="soupQuantity" />
+            <div class="product">
+              <input type="checkbox" id="eggsAndBaconCheckbox" />
+              <label for="eggsAndBaconCheckbox">Eggs and Bacon</label>
+            </div>
+            <input type="number" id="eggsAndBaconQuantity" />
+            <div class="product">
+              <input type="checkbox" id="wafflesCheckbox" />
+              <label for="wafflesCheckbox">Waffles</label>
+            </div>
+            <input type="number" id="wafflesQuantity" />
+            <div class="product">
+              <input type="checkbox" id="frenchToastCheckbox" />
+              <label for="frenchToastCheckbox">French Toast</label>
+            </div>
+            <input type="number" id="frenchToastQuantity" />
+            <div class="product">
+              <input type="checkbox" id="toutonsCheckbox" />
+              <label for="toutonsCheckbox">Toutons</label>
+            </div>
+            <input type="number" id="toutonsQuantity" />
+            <div class="product">
+              <input type="checkbox" id="bagelCheckbox" />
+              <label for="bagelCheckbox">Bagel</label>
+            </div>
+            <input type="number" id="bagelQuantity" />
+            <div class="product">
+              <input type="checkbox" id="oatmealCheckbox" />
+              <label for="oatmealCheckbox">Oatmeal</label>
+            </div>
+            <input type="number" id="oatmealQuantity" />
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required />
+
+            <label for="creditCardNumber">Credit Card Number:</label>
+            <input
+              type="text"
+              id="creditCardNumber"
+              name="creditCardNumber"
+              required
+            />
+
+            <input type="submit" value="Place Order" />
+          </form>
+        </div>
+      </main>
+
+      <footer></footer>
+    </div>
+    <script src="orders.js"></script>
+  </body>
+</html>
